@@ -2,7 +2,7 @@ name: info
 on: workflow_dispatch
 jobs:
   info:
-  runs-on: ubuntu-latest
-  steps:
-  - name: Get info
-    runs: echo "${{ toJSON(github) }}"
+    runs-on: ubuntu-latest
+    steps:
+    - name: Get info
+      runs: echo "${{ toJSON(github) }}"
