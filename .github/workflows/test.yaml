@@ -16,7 +16,7 @@ jobs:
         run: npm test
   depoly:
     needs: test
-    runs-on: ubuntu latest
+    runs-on: ubuntu-latest
     steps:
     - name: Depoly
       run: echo "Deploying..."
